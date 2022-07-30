@@ -1,0 +1,45 @@
+body{ 
+    background-color: #0b192a;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    border-radius : 10px;
+    background-color:#14263e;
+    width:250px;
+    height:450px;
+    padding : 20px;
+    margin:auto;
+
+}
+h1{ 
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size:20px;
+}
+h6{
+    color:white; 
+    font-family: 'Outfit', sans-serif;
+}
+
+p{
+    color : white;
+    font-family: 'Outfit', sans-serif;
+}
+
+#nft { 
+    border-radius:10px;
+}
+
+.middle-card { 
+    display : flex; 
+    flex-direction: row;
+    padding : 0px 30px;
+}
+
+.lower-card{ 
+    display : flex;
+    flex-direction: row;
+}
+
