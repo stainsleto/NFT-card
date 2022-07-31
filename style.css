@@ -13,10 +13,21 @@ body{
     margin:auto;
 
 }
-h1{ 
+
+.card img:hover{ 
+    background: url(../NFT-card/images/icon-view.svg);
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+a{ 
+    margin: 20px 0px 15px;
     color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
     font-size:20px;
+    font-weight: 600;
 }
 .desc{ 
     margin-top: -15px;
@@ -40,9 +51,6 @@ p{
     display : flex; 
     flex-direction: row;   
 }
-
-
-
 
 .lower-card{ 
     display : flex;
@@ -107,4 +115,8 @@ p{
   bottom: 0;
   left: 0;
   
+}
+
+.name span:hover{ 
+    color:hsl(178, 100%, 50%);
 }
