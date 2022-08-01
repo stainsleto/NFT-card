@@ -14,10 +14,6 @@ body{
 
 }
 
-.card img:hover{ 
-    background: url(../NFT-card/images/icon-view.svg);
-}
-
 a:hover{
     color: hsl(178, 100%, 50%);
 }
@@ -45,6 +41,10 @@ p{
 
 #nft { 
     border-radius:10px;
+}
+
+#nft:hover{ 
+    opacity:0.5;
 }
 
 .middle-card { 
